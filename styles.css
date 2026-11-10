@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(green,rgb(0, 146, 151));
+}
+
+#heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+    border-radius: 5vh;
+    padding: 1vh;
+}
+
+#button1{
+    margin: 5vh;
+    background: linear-gradient(white,darkgrey);
+    border-style: solid;
+    border-color: linear-gradient(black,darkgrey);
+    border-radius: 2vh;
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+}
