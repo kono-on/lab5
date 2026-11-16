@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- <audio control>, html dom elements to be used as well as events -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCT360 Lab 5</title>
@@ -10,8 +9,26 @@
 </head>
 <body>
     <div id="heading">
-        <h1>Soundscape</h1>
-        <h3 id="button1">Play</h3>
+        <h1>A Cloudy Walk to the Market</h1>
+        <h3 id="beginButton">Begin</h3>
+    </div>
+
+    <h3 id="backButton">Return</h3>
+
+    <div id="experience">
+        <audio id="soundscape" controls>
+            <source src="audio/street_clipped.mp3" type="audio/mpeg">
+        </audio>
+
+        <div id="imageResize">
+            <!-- images overlap for fade, removed and added
+            through javascript -->
+            <img id="image0" class="displayImage">
+            <img id="image1" class="displayImage">
+            <img id="image2" class="displayImage">
+            <img id="image3" class="displayImage">
+            <img id="image4" class="displayImage">
+        </div>
     </div>
 
     <script src="script.js"></script>
